@@ -1,0 +1,190 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.headline1
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+
+    color: #0E0C1A;
+}
+
+.headline2
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    color: #0E0C1A;
+}
+
+.headline3
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.headline4
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.headline5
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.headline6
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.subtitle1
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.subtitle2
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.body1
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.body2
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.caption1
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.caption2
+{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.categoryName
+{
+    padding-left: 24px;
+    font-family: 'Pretendard';
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.button
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.myInfoFSize
+{
+    font-size: 28px;
+}
+
+.myInfoBtn
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.myInfoMenu
+{
+    font-family: 'Pretendard';
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 20px; 
+}
+
+.myAlign
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

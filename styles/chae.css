@@ -1,0 +1,320 @@
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 5rem;
+    background-color: white;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    padding-top: 15px;
+  }
+
+  .foot2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 5rem;
+    background-color: white;
+    justify-content: center;
+    bottom: 0;
+    padding-top: 15px;
+  }
+  .line{
+    width: 360px;
+    height: 1px;
+    left: 0px;
+    top: 572px;
+    background: #CFCFCF;
+  }
+
+  .high-container{
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .travel-agency{
+    font-size: 14px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+  }
+  .travel-name{
+    font-size: 24px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .travel-price{
+    font-size: 20px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    color: #C85400;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .travel-description{
+    font-size: 17px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    line-height: 160%;
+  }
+  .wouldDialog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wouldyou{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 120%;
+    width: 75vw;
+    margin-top: 30px;
+  }
+
+  .wouldno{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+  .wouldyes {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    height: 48px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 48px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  .head2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 48px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+  }
+
+  .kakao {
+    background-color: #FBE44D;
+    border-radius: 5px;
+    bottom: 0;
+    display: flex;
+    height: 48px;
+    width: 92px;
+    color: #3B1F1E;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard';
+    font-style: normal;
+  }
+  .reserve{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    width: 218px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard';
+    font-style: normal;
+  }
+
+  .boarding{
+    height:95vh;
+    width:100vw;
+    position: relative;
+    padding: 10px;
+    padding-left: 40px;
+  }
+
+  .graynum{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #9F9F9F;
+  }
+
+  .plzslect{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .likebox-yes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 4px;
+    height: 44px;
+    background: #09B87E;
+    border: 1px solid #09B87E;
+    color: white;
+    border-radius: 100px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .likebox-no{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 4px;
+    height: 44px;
+    background: white;
+    border: 1px solid #252521;
+    border-radius: 100px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .next{
+    position: absolute;
+    width: 320px;
+    height: 48px;
+    left: 20px;
+    bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    /* DropShadow/CardAndButton */
+    border-radius: 4px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+  .next2{
+    width: 220px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    /* DropShadow/CardAndButton */
+    border-radius: 4px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+  .pre{
+    width: 90px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    /* DropShadow/CardAndButton */
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: black;
+  }
+
+  .pre_next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    width: 100vw;
+  }
+
+  .subtitle
+  {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .subsub
+  {
+    font-family: 'Pretendard';
+    font-weight: 550;
+    font-size: 20px;
+  }
